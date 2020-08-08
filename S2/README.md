@@ -17,16 +17,29 @@ Accuracy graph for train and test set:
 Missclassified images for 4 classes:
 
 Flaying Birds:
+
 ![missclassified images for flying birds](https://user-images.githubusercontent.com/68057947/89715271-2f612580-d9c2-11ea-8e6d-cfbef5cde824.JPG)
 
 Large Quadcopter:
+
 ![missclassified images for Large quadcopters](https://user-images.githubusercontent.com/68057947/89715276-3851f700-d9c2-11ea-925c-c5c9dd91bb0a.JPG)
 
 Small Quadcopter:
+
 ![missclassified images for Small quadcopters](https://user-images.githubusercontent.com/68057947/89715283-3be57e00-d9c2-11ea-9c58-af97980a860e.JPG)
 
 Wingd Drones:
+
 ![missclassified images for winged drones](https://user-images.githubusercontent.com/68057947/89715288-3f790500-d9c2-11ea-90d5-ed6fb2d88813.JPG)
+
+
+Insomnia Endpoint image:
+
+Flying bird given as input and predicted as flying bird:
+
+
+
+
 
 
 
