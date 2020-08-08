@@ -1,7 +1,7 @@
 
 Custom training of Mobilenet_v2 for four classes and deploying on AWS 
 
-Classes were Flying Birds(FB), Large quadcopter(LQ), Small Quadcopter(SQ) and Wingd Drones(WD)
+Classes were 0:Flying Birds(FB), 1:Large quadcopter(LQ), 2:Small Quadcopter(SQ) and 3:Wingd Drones(WD)
 
 Approach for custom training:
 
@@ -36,6 +36,8 @@ Wingd Drones:
 Insomnia Endpoint image:
 
 Flying bird given as input and predicted as flying bird:
+
+![S3_endpoint](https://user-images.githubusercontent.com/68057947/89715733-6be25080-d9c5-11ea-9437-9b5cafe540b3.JPG)
 
 
 
