@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+<head>
+<body>
+<div class="grid-x grid-margin-x", style="margin-top:2%;">
+  <div class="large-12 cell">
+    <h4 id ="imageClasifiers">Image Clasifiers </h4>
+    </div>
+    <div class="large-4 cell">
+    <label for="resnet34fileupload">Please choose image file you want to clasify with mobilenet model.</label>
+    <input type="file" id="resnet34fileupload">
+</div>    
+<div class="large-8 cell">
+<input type="button" id="btnResnetUpload" class="button" value="Clasify Image">
+</div>
+<p id="result"></p>
+</div>
+<body>
+
+<script src="/jquery-3.3.1.min.js"></script>
+<script src="/upload2.js"></script>
+</html>
+
+
+
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+<head>
+<body>
+<div class="grid-x grid-margin-x", style="margin-top:2%;">
+  <div class="large-12 cell">
+    <h4 id ="imageClasifiers">Image Clasifiers </h4>
+    </div>
+    
+<div class="large-4 cell">
+    <label for="mobfileupload">Please choose image file you want to clasify with resnet model.</label>
+    <input type="file" id="mobfileupload">
+</div>    
+<div class="large-8 cell">
+<input type="button" id="btnMobnetUpload" class="button" value="Clasify Image">
+</div>
+<p id="result2"></p>
+
+</div>
+<body>
+
+<script src="/jquery-3.3.1.min.js"></script>
+<script src="/upload2.js"></script>
+</html>
+
+
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+<head>
+<body>
+<div class="grid-x grid-margin-x", style="margin-top:2%;">
+  <div class="large-12 cell">
+    <h4 id ="imageClasifiers">Image Alignment </h4>
+    </div>
+    
+
+<div class="large-4 cell">
+    <label for="faceupload">Please choose image file you want to align.</label>
+    <input type="file" id="faceupload" onchange="loadFile(event)">
+</div>    
+<div class="large-8 cell">
+<input type="button" id="btnFaceUpload" class="button" value="Align Image">
+
+</div>
+
+<img id="result3" style="margin-top:0%;margin-left:5%;width:200px;height:200px">
+</div>
+
+<body>
+
+<script>
+		var loadFile = function(event) {
+		var image = document.getElementById('result3');
+		image.src = URL.createObjectURL(event.target.files[0]);
+
+	</script>
+
+<script src="/jquery-3.3.1.min.js"></script>
+<script src="/upload2.js"></script>
+</html>
+
+
